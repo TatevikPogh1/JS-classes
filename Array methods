@@ -1,0 +1,19 @@
+const phones = ["iPhone", "Samsung", "Nokia", "Xiaomi"];
+phones.pop();  
+const phones = ["iPhone", "Samsung", "Nokia", "Xiaomi"];
+phones.push("Huawei"); 
+const phones = ["iPhone", "Samsung", "Nokia", "Xiamoni"];
+phones.shift();
+const phones = ["iPhone", "Samsung", "Nokia", "Xiamoni"];
+phones.unshift("Huawei");
+const phones = ["iPhone", "Samsung", "Nokia", "Xiamoni"];
+phones[phones.length] = "Huawei";
+const phones = ["iPhone", "Samsung", "Nokia", "Xiamoni"];
+delete phones[1];
+const myPhones = ["iPhone", "Samsung"];
+const myDevices = ["iWatch, "MacBook"];
+const myAllDevices = myPhones.concat(myDevices); (edited) 
+const phones = ["iPhone", "Samsung", "Nokia", "Xiaomi"];
+phones.splice(1, 0, "Huawei", "Sony");
+const phones = ["iPhone", "Samsung", "Nokia", "Xiaomi"];
+const china = phones.slice(3);
