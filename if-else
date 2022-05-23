@@ -1,0 +1,8 @@
+const age = 18;
+if (age = 18) {
+  console.log("Tatev is an adult.");
+} else if (age > 18) {
+  console.log("Tatev is old.");
+} else {
+  console.log("Tatev is a child.");
+}
