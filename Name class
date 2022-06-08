@@ -1,0 +1,11 @@
+class Name {
+	constructor(fName, lName) {
+		this.fname = this.capitalize(fName);
+		this.lname = this.capitalize(lName);
+		this.fullname = `${this.fname} ${this.lname}`;
+		this.initials = `${this.fname[0]}.${this.lname[0]}`;
+	}
+	capitalize(word) {
+		return word[0].toUpperCase() + word.substring(1).toLowerCase();
+	}
+}
